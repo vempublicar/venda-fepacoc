@@ -1,0 +1,401 @@
+/* Fonte global */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333333; /* Cor padrão do texto */
+}
+
+h2 {
+    font-weight: 400; /* Traço fino para um visual moderno */
+    line-height: 1.2; /* Espaçamento entre linhas */
+    margin: 0.5em 0;
+}
+/* Estilos para Cabeçalhos */
+h1, h3, h4 {
+    font-weight: 300; /* Traço fino para um visual moderno */
+    line-height: 1.2; /* Espaçamento entre linhas */
+    margin: 0.5em 0;
+}
+
+/* Estilo para H1 */
+h1 {
+    font-size: 90px; /* Maior destaque para h1 */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px; /* Tamanho para mobile */
+    }
+}
+
+/* Estilo para H2 (Maior destaque) */
+h2 {
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 38px;
+    }
+}
+
+/* Estilo para H3 */
+h3 {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 36px;
+    }
+}
+
+/* Estilo para H4 */
+h4 {
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    h4 {
+        font-size: 28px;
+    }
+}
+
+/* Estilos para Parágrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para Elementos Destacados */
+span {
+    font-weight: 400;  /* Um leve destaque no span */
+    color: #2e93ff;
+}
+
+b {
+    font-weight: 700;  /* Destaque em negrito */
+    color: #0b121a;
+}
+
+small {
+    font-size: 0.875em; /* Tamanho menor para small */
+    color: #919090;
+}
+
+.has-text-project {
+    font-weight: 400;  /* Um leve destaque no span */
+    color: #2e93ff;
+}
+/* Fundo atrás de <b> */
+.bg-highlight {
+    background-color: #2e93ff; /* Cor de fundo destacada */
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+/* 1 - Seção Fullscreen */
+.section-fullscreen {
+    background: url('../images/backgorund/dados.jpg') no-repeat center center;
+    width: 100vw;        /* Ocupa 100% da largura da viewport */
+    height: 100vh;       /* Ocupa 100% da altura da viewport */
+    overflow: hidden;    /* Esconde qualquer conteúdo excedente */
+    display: flex;       /* Centraliza o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* 2 - Seção com Margem de Conteúdo (Padding) */
+.section-padding {
+    padding: 50px 0;     /* Ajuste o valor conforme necessário */
+    margin: 0;
+}
+
+.section-svg {
+    padding: 50px 0 -2px;       /* Ajuste o valor conforme necessário */
+    margin: 0;
+    position: relative;
+}
+
+/* Ajusta o SVG dentro da seção para que a borda inferior não apareça */
+.section-svg svg {
+    display: block;
+    margin-bottom: -1px;   /* Elimina o risco embaixo do SVG */
+    line-height: 0;        /* Remove espaços extras gerados por `line-height` */
+}
+
+/* 3 - Seção em Faixa (Strip) */
+.section-strip {
+    width: 100%;
+    padding: 20px 0;     /* Menor padding, sem necessidade de ocupar toda a altura */
+    margin: 0;
+}
+
+
+.bg-fullscreen-image {
+    background: url('../images/backgorund/note_cafe.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+
+.bg-fullscreen-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparência opcional */
+    z-index: 1;
+}
+
+.bg-fullscreen-image > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* 2 - Cor Clara (Cinza-Branco) */
+.bg-light {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* 3 - Cor Média (Cinza) */
+.bg-medium {
+    background-color: #cccccc;
+    color: #333;
+}
+
+/* 4 - Cor Escura (Azul) */
+.bg-dark {
+    background-color: #182433;
+    color: #ffffff;
+}
+
+/* 5 - Cor Vibrante (Azul) */
+.bg-vibrant-blue {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* 6 - Cor Vibrante (Laranja) */
+.bg-vibrant-orange {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* 7 - Vídeo Full-Screen Transparente 50% */
+.bg-video {
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.bg-video::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparência do vídeo */
+    z-index: 1;
+}
+
+.bg-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.5; /* Controle de opacidade do vídeo */
+}
+
+.bg-video > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* 8 - Efeito Parallax */
+.bg-parallax {
+    background: url('../images/backgorund/ferramenta.jpg') no-repeat center center/cover;
+    position: relative;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.bg-parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 25, 39, 0.687); /* Cinza suave com 50% de opacidade */
+    z-index: 1;
+}
+
+.bg-parallax > * {
+    position: relative;
+    z-index: 2;
+}
+
+.section-highlight .highlight-blue {
+    color: #007bff; /* Cor azul vibrante */
+    font-weight: 700; /* Texto em negrito */
+}
+
+/* Botão de chamada para ação */
+.button.is-primary {
+    background-color: #007bff; /* Azul vibrante */
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease; /* Suaviza a transição de cor */
+}
+
+.button.is-primary:hover {
+    background-color: #182433; /* Azul escuro para o hover */
+}
+
+.button.is-rounded {
+    border-radius: 30px;
+}
+
+/* Centraliza e limita o conteúdo em um grid de 4 colunas */
+.centered-grid {
+    max-width: 70%;          /* Limita a largura total da seção */
+    margin: 0 auto;          /* Centraliza o conteúdo horizontalmente */
+    text-align: center;      /* Centraliza o texto */
+}
+
+@media (max-width: 768px) {
+    .centered-grid {
+        max-width: 90%;      /* Ajusta a largura para dispositivos móveis */
+    }
+}
+
+@media (min-width: 1024px) {
+    .centered-grid {
+        max-width: 60%;      /* Ajusta para 4 colunas no desktop */
+    }
+}
+
+/* Estilo da Seção do Header */
+.header-section {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 30px;
+    width: auto;
+    transition: max-height 0.3s ease;
+}
+
+/* Estilo do Botão de Acesso à Área de Membros */
+.access-button {
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #182433; /* Borda azul escura */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.access-icon {
+    margin-left: 8px;
+    display: none;
+}
+
+/* Responsividade para Dispositivos Móveis */
+@media (max-width: 768px) {
+    .logo {
+        max-height: 24px;
+    }
+
+    .access-text {
+        display: none;
+    }
+
+    .access-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.image-rounded img {
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para a lista de indicadores */
+.indicator-list {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.indicator-list li {
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+/* Wrapper para aplicar bordas arredondadas no vídeo */
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;           /* Largura total do contêiner */
+    max-width: 800px;      /* Largura máxima do vídeo */
+    aspect-ratio: 16 / 9;  /* Mantém a proporção 16:9 */
+    border-radius: 15px;   /* Bordas arredondadas */
+    margin: 20px auto;     /* Centraliza o contêiner */
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+.box small {
+    margin-top: 0.5rem; /* Reduz o espaço superior para um alinhamento mais próximo */
+    display: block;
+}

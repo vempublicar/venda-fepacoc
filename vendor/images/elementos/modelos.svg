@@ -1,0 +1,53 @@
+<!-- Curva suave para transições fluidas entre seções -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,165.3C1120,171,1280,213,1360,234.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<!-- Curva com picos, similar a montanhas -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,224L120,213.3C240,203,480,181,720,154.7C960,128,1200,96,1320,80L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+</svg>
+<!-- Curva com efeito de ondas duplas para transições suaves e dinâmicas -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,128L60,138.7C120,149,240,171,360,181.3C480,192,600,192,720,181.3C840,171,960,149,1080,160C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+</svg>
+<!-- Curva suave com um único arco para uma transição simples e elegante -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,192L1440,320L1440,0L0,0Z"></path>
+</svg>
+<!-- Curva com formas de colinas, criando um efeito natural e fluido -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,64L80,90.7C160,117,320,171,480,192C640,213,800,203,960,176C1120,149,1280,107,1360,85.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<!-- Curva em forma de onda profunda, ideal para destaque -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,288L1440,128L1440,320L0,320Z"></path>
+</svg>
+<!-- Curva com pequenas elevações, para uma transição sutil e dinâmica -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,160L80,176C160,192,320,224,480,229.3C640,235,800,213,960,202.7C1120,192,1280,192,1360,192L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<!-- Curva com múltiplos arcos, criando um efeito ondulado detalhado -->
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,218.7C480,256,600,256,720,245.3C840,235,960,213,1080,181.3C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+</svg>
+
+<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="160" width="60" height="160" fill="#007bff"></rect>
+    <rect x="80" y="140" width="60" height="180" fill="#007bff"></rect>
+    <rect x="160" y="100" width="60" height="220" fill="#007bff"></rect>
+    <rect x="240" y="180" width="60" height="140" fill="#007bff"></rect>
+    <rect x="320" y="120" width="60" height="200" fill="#007bff"></rect>
+    <rect x="400" y="90" width="60" height="230" fill="#007bff"></rect>
+    <rect x="480" y="160" width="60" height="160" fill="#007bff"></rect>
+    <rect x="560" y="70" width="60" height="250" fill="#007bff"></rect>
+    <rect x="640" y="130" width="60" height="190" fill="#007bff"></rect>
+    <rect x="720" y="150" width="60" height="170" fill="#007bff"></rect>
+    <rect x="800" y="110" width="60" height="210" fill="#007bff"></rect>
+    <rect x="880" y="140" width="60" height="180" fill="#007bff"></rect>
+    <rect x="960" y="90" width="60" height="230" fill="#007bff"></rect>
+    <rect x="1040" y="180" width="60" height="140" fill="#007bff"></rect>
+    <rect x="1120" y="130" width="60" height="190" fill="#007bff"></rect>
+    <rect x="1200" y="100" width="60" height="220" fill="#007bff"></rect>
+    <rect x="1280" y="160" width="60" height="160" fill="#007bff"></rect>
+    <rect x="1360" y="150" width="60" height="170" fill="#007bff"></rect>
+</svg>
