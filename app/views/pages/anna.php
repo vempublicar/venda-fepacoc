@@ -43,7 +43,7 @@
                 <p>
                 Uma ferramenta exclusiva que analisa e processa seus dados brutos, entregando métricas precisas para uma gestão eficiente.
                 </p>
-                <a href="https://members.fepacoc.com.br" target="_blank" class="button is-primary is-rounded is-large mt-4">Área de Membros Gratuita</a>
+                <a href="https://wa.me/5519971673413?text=Olá!%20Tenho%20interesse%20em%20saber%20mais." target="_blank" class="button is-primary is-rounded is-large mt-4">Entrar em contato</a>
             </div>
             <!-- Imagem à direita -->
             <div class="column is-6 has-text-centered">
