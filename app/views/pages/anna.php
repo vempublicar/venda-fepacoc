@@ -33,26 +33,32 @@
     </header>
     <!-- Fundo Branco / Texto / Botão -->
     <section class="section-fullscreen bg-light section-highlight">
-        <div class="container has-text-centered">
-            <h3 class="column is-10 is-offset-1 has-text-centered">
-                Criada para <span class="highlight-blue">transformar sua empresa</span> em um
-                negócio de sucesso!
-            </h3>
-            <div class="centered-grid">
+    <div class="">
+        <div class="columns is-vcentered">
+            <!-- Texto à esquerda -->
+            <div class="column is-6 has-text-left">
+                <h3>
+                Impulsione o <span class="highlight-blue">crescimento da sua empresa</span> com uma gestão eficiente!
+                </h3>
                 <p>
-                    Uma ferramenta exclusiva que calcula seus resultados e entrega<br> métricas para uma gestão eficiente.
+                Uma ferramenta exclusiva que analisa e processa seus dados brutos, entregando métricas precisas para uma gestão eficiente.
                 </p>
+                <a href="https://members.fepacoc.com.br" target="_blank" class="button is-primary is-rounded is-large mt-4">Área de Membros Gratuita</a>
             </div>
-            <a href="https://members.fepacoc.com.br" target="_blank" class="button is-primary is-rounded is-large mt-4">Área de Membros Gratuita</a>
+            <!-- Imagem à direita -->
+            <div class="column is-6 has-text-centered">
+                <img src="vendor/images/backgorund/anna.png" alt="" class="image-adjusted">
+            </div>
         </div>
-    </section>
-    <section class="bg-vibrant-orange section-strip">
+    </div>
+</section>
+    <!-- <section class="bg-vibrant-orange section-strip">
         <div class="container">
             <h4 class="is-4 has-text-white has-text-centered">
                 Vamos além da teoria.
                 </h>
         </div>
-    </section>
+    </section> -->
     <section class="section bg-dark">
         <div class="container">
             <div class="columns is-vcentered">
@@ -214,14 +220,12 @@
 
     <section id="imagem_texto_botao" class="section">
         <div class="container">
-            <div class="columns is-vcentered is-flex-direction-column-reverse-mobile">
-                <!-- Imagem Vetorizada -->
+            <!-- <div class="columns is-vcentered is-flex-direction-column-reverse-mobile">
                 <div class="column">
                     <figure class="image is-4by3">
                         <img src="vendor/images/elementos/empreendedor.png" alt="Empreendedor Frustrado">
                     </figure>
                 </div>
-                <!-- Texto de Storytelling -->
                 <div class="column">
                     <p class="title is-4">O Desafio de Crescer</p>
                     <p class="is-size-5 has-text-grey">
@@ -229,13 +233,13 @@
                         mas agora se vê preso no operacional, sem conseguir o retorno que esperava.
                         A empresa não cresceu como ele imaginava, e ele se sente perdido, sem saber qual caminho seguir.
                     </p>
-                    <!-- <p class="is-size-6 has-text-grey-dark mt-4">
+                    <p class="is-size-6 has-text-grey-dark mt-4">
                         Este é um exemplo de uma triste realidade, onde muitos brasileiros desejam alcançar a segurança financeira através do empreendedorismo,
                         porém se veem reféns de uma gestão complicada e alguns acabam até acumulando dívidas.
-                    </p> -->
+                    </p>
                 </div>
             </div>
-            <hr>
+            <hr> -->
             <small class="is-size-6 column is-8 is-offset-2 has-text-centered">
                 O cenário empreendedor no Brasil apresenta grandes desafios. Muitos empresários enfrentam barreiras operacionais e financeiras, e estudos apontam que a sobrevivência de empresas está diretamente ligada à sua capacidade de adaptação e planejamento estratégico.
             </small>

@@ -25,18 +25,21 @@ switch ($page) {
     case 'setup':
         require 'database/setup.php';
         break;
+    case 'anna':
+        require 'app/views/pages/anna.php';
+        break;
 
     case 'login':
         require 'app/views/login.php';
         break;
 
-        case 'logout':
-            require 'app/views/logout.php';
-            break;
+    case 'logout':
+        require 'app/views/logout.php';
+        break;
 
-        case 'dashboard':
-            require 'app/views/private/dashboard.php';
-            break;
+    case 'dashboard':
+        require 'app/views/private/dashboard.php';
+        break;
 
     default:
         // Carrega uma página de campanha aleatória
