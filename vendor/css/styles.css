@@ -113,6 +113,18 @@ small {
     padding-right: 40px;
 }
 
+.section-fullscreen-dois {
+    background: url('../images/backgorund/dados.jpg') no-repeat center center;
+    width: 100vw;        /* Ocupa 100% da largura da viewport */
+    height: 100vh;       /* Ocupa 100% da altura da viewport */
+    overflow: hidden;    /* Esconde qualquer conteúdo excedente */
+    display: flex;       /* Centraliza o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 /* 2 - Seção com Margem de Conteúdo (Padding) */
 .section-padding {
     padding: 50px 0;     /* Ajuste o valor conforme necessário */
