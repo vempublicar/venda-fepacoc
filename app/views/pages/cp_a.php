@@ -660,7 +660,7 @@
                     </div>
                 </div>
 
-                <!-- Plano ANÁLISE -->
+                <!-- Plano ANÁLISE 
                 <div class="column is-one-quarter">
                     <div class="box">
                         <h3 class="title is-4">ANÁLISE</h3>
@@ -681,8 +681,8 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- Plano CRESCIMENTO -->
+                 -->
+                <!-- Plano CRESCIMENTO 
                 <div class="column is-one-quarter">
                     <div class="box">
                         <h3 class="title is-4">CRESCIMENTO</h3>
@@ -703,6 +703,7 @@
                         </a>
                     </div>
                 </div>
+                 -->
 
                 <!-- Plano ACELERAÇÃO -->
                 <div class="column is-one-quarter">
