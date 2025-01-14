@@ -658,7 +658,7 @@
                             <li><i class="fa fa-check has-text-success"></i> Palestras e Eventos</li>
                         </ul>
                         <hr>
-                        <a href="#" class="button is-success is-outlined is-rounded is-fullwidth mt-4 has-text-dark">
+                        <a href="https://pay.kiwify.com.br/ttzrgG3" class="button is-success is-outlined is-rounded is-fullwidth mt-4 has-text-dark">
                             <i class="fa fa-plus has-text-dark mr-2"></i> Cadastrar
                         </a>
                     </div>
@@ -723,8 +723,8 @@
                             <li><i class="fa fa-check has-text-success"></i> Gestão Conjunta </li>
                         </ul>
                         <hr>
-                        <a href="#" class="button is-dark is-rounded is-fullwidth mt-4">
-                            <i class="fa fa-whatsapp has-text-success mr-2"></i> Contratar
+                        <a href="https://wa.me/19998870694?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="button is-dark is-rounded is-fullwidth mt-4">
+                            <i class="fa fa-whatsapp has-text-success mr-2"></i> Fechar no WhatsApp
                         </a>
                     </div>
                 </div>
