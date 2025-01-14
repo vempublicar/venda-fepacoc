@@ -640,7 +640,7 @@
             <h2 class="title is-3 has-text-white mb-6">Planos Disponíveis</h2>
             <div class="columns is-multiline is-centered">
                 <!-- Plano ESTRATÉGIA -->
-                <div class="column is-half">
+                <div class="column is-one-third">
                     <div class="box">
                         <h3 class="title is-4">ESTRATÉGIA</h3>
                         <small class="is-size-6 mt-2"><b class="has-text-black">R$</b><b class="title is-2 has-text-project has-text-centered">79</b> </small>
@@ -706,7 +706,7 @@
                  -->
 
                 <!-- Plano ACELERAÇÃO -->
-                <div class="column is-half">
+                <div class="column is-one-third">
                     <div class="box">
                         <h3 class="title is-4">ACELERAÇÃO</h3>
                         <small class="is-size-6 mt-2"><b class="has-text-black">R$</b><b class="title is-2 has-text-project has-text-centered">1.690</b> </small>
