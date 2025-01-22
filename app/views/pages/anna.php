@@ -36,12 +36,12 @@
     <div class="">
         <div class="columns is-vcentered">
             <!-- Texto à esquerda -->
-            <div class="column mt-4 is-6 has-text-left">
+            <div class="column mt-7 is-6 has-text-left">
                 <h3>
-                Impulsione o <span class="highlight-blue">crescimento da sua empresa</span> com uma gestão eficiente!
+                Impulsione sua <span class="highlight-blue">empresa</span> com uma gestão estratégica!
                 </h3>
                 <p>
-                Uma ferramenta exclusiva que analisa e processa seus dados brutos, entregando métricas precisas para uma gestão eficiente.
+                O Método exclusivo do Fepacoc simplifica sua gestão, focando no que realmente importa para gerar lucro na sua operação.
                 </p>
                 <a href="https://wa.me/5519971673413?text=Olá!%20Tenho%20interesse%20em%20saber%20mais." target="_blank" class="button is-primary is-rounded is-large mt-4">Entrar em contato</a>
             </div>
