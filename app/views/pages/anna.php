@@ -34,7 +34,7 @@
     <!-- Fundo Branco / Texto / Botão -->
     <section class="section-fullscreen bg-light section-highlight">
     <div class="">
-        <div class="columns is-vcentered">
+        <div class="columns ">
             <!-- Texto à esquerda -->
             <div class="column is-6 has-text-left"  >
                 <h3 style="margin-top:200px">
