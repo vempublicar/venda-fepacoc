@@ -36,7 +36,7 @@
     <div class="">
         <div class="columns is-vcentered">
             <!-- Texto à esquerda -->
-            <div class="column mt-7 is-6 has-text-left">
+            <div class="column mt-8 is-6 has-text-left">
                 <h3>
                 Impulsione sua <span class="highlight-blue">empresa</span> com uma gestão estratégica!
                 </h3>
